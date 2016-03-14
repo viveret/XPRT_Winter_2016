@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="titlecolor">#000000</color>
+	<color name="linkcolor">#bfbfbf</color>
+
+	<color name="primary">#212121</color>
+	<color name="primaryDark">#111111</color>
+	<color name="accent">#2196f3</color>
+
+	<color name="textPrimary">#000000</color>
+	<color name="textSecondary">#000000</color>
+
+    <color name="background">#212121</color>
+
+    <color name="paper">#ffd49f</color>
+
+	<!-- inherit from the material theme -->
+	<style name="AppTheme" parent="Theme.AppCompat">
+		<!-- Main theme colors -->
+		<!--   your app branding color for the app bar -->
+		<item name="colorPrimary">@color/primary</item>
+		<!--   darker variant for the status bar and contextual app bars -->
+		<item name="colorPrimaryDark">@color/primaryDark</item>
+		<!--   theme UI controls like checkboxes and text fields -->
+		<item name="colorAccent">@color/accent</item>
+
+        <!--item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColor">@color/textSecondary</item-->
+		<item name="android:navigationBarColor">@color/background</item>
+
+		<item name="android:itemTextAppearance">@android:color/white</item>
+		<item name="actionMenuTextColor">@android:color/white</item>
+		
+		<item name="android:windowBackground">@color/background</item>
+	</style>
+</resources>
