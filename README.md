@@ -19,7 +19,7 @@ Credits:
 
   * Uses an Android friendly (rewritten Apache code) version of Jply to load meshes
 
-[Screenshot link](./docs/Screenshot_2016-03-13-19-46-55.png)
+![Screenshot link](./docs/Screenshot_2016-03-13-19-46-55.png)
 
 About ChickTech
 ===============
