@@ -9,10 +9,17 @@ This workload focuses on the GPU and OpenGL by loading in .ply meshes and displa
 
 It measures the time it takes to:
 
-  * Allocate multiple blocks of memory on the main RAM (with new) and GPU vram (with **glBufferData**)
-  * Upload and update data (vertices, colors, indices) to the GPU using **glBufferSubData**
-  * Render said VBOs (Vertex Buffer Objects) using **glDrawElements** and indexed vertices
+  * Allocate multiple blocks of memory on the main RAM (with `new`) and GPU vram (with `glBufferData`)
+  * Upload and update data (vertices, colors, indices) to the GPU using `glBufferSubData`
+  * Render said VBOs (Vertex Buffer Objects) using `glDrawElements` and indexed vertices
   * Reallocate new VBOs when switching scenes / meshes
+
+Credits:
+--------
+
+  * Uses an Android friendly (rewritten Apache code) version of Jply to load meshes
+
+(./docs/Screenshot_2016-03-13-19-46-55.png)
 
 About ChickTech
 ===============
